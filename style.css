@@ -4,22 +4,25 @@
   box-sizing: border-box;
 }
 
-.body {
+.body,
+.header,
+.section-info,
+.card {
   display: flex;
   flex-direction: column;
+}
+
+.body {
   font-family: "Roboto", sans-serif;
-  min-height: 100vh;
 }
 
 /* STYLE DU HEADER */
 
 .header {
-  flex: 2;
-  display: flex;
-  flex-direction: column;
   background-color: #1f2937;
   color: white;
 }
+
 .header-body,
 .header-nav {
   padding: 0 70px;
@@ -93,18 +96,35 @@ ul li {
 }
 
 .body-img img {
-    width: 70%;
-    object-fit: contain;
+  width: 70%;
+  object-fit: contain;
 }
 
-.section-info,
-.testimonial,
-.cta {
+/* SECTION CATALOGUE STYLE */
+.section-info {
+  background-color: lightpink;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  width: 250px;
   flex: 1;
 }
 
-.section-info {
-  background-color: lightpink;
+.card-img {
+  display: flex;
+  justify-content: center;
+}
+
+.card-img img {
+  width: 80%;
+}
+
+.card p {
+  text-align: center;
 }
 
 .testimonial {
