@@ -103,7 +103,7 @@ ul li {
 
 /* SECTION CATALOGUE STYLE */
 .section-info {
-  background-color: #F9FAF8;
+  background-color: #f9faf8;
   padding: 50px 70px 70px;
   text-align: center;
   font-weight: 900;
@@ -131,7 +131,6 @@ ul li {
   border: 1.5px solid rgb(42, 94, 42);
   border-radius: 25px;
   overflow: hidden;
-  
 }
 
 .card-img img {
@@ -147,12 +146,11 @@ ul li {
 /* TESTIMONIAL STYLE */
 
 .testimonial {
-  background-color: #E7E5EB;
+  background-color: #e7e5eb;
   font-size: 36px;
-  color: #1F2937;
+  color: #1f2937;
   font-weight: 300;
   padding: 100px;
-  
 }
 
 .testimonial p {
@@ -162,10 +160,45 @@ ul li {
   font-size: 24px;
 }
 
+
+/* CTA STYLE */
+
 .cta {
-  background-color: lightgray;
+  padding: 100px 150px;
 }
 
+.cta-card {
+  background-color: rgb(42, 94, 42);
+  padding: 70px 100px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-card .title {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.cta-card .text {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.cta-card .btn {
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border: 2px solid #f9faf8;
+  border-radius: 12px;
+}
+
+/* FOOTER STYLE */
+
 .footer {
-  background-color: lightskyblue;
+  background-color: #1f2937;
 }
