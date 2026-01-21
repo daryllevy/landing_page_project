@@ -128,7 +128,7 @@ ul li {
 .card-img {
   display: flex;
   justify-content: center;
-  border: 2px solid rgb(42, 94, 42);
+  border: 1.5px solid rgb(42, 94, 42);
   border-radius: 25px;
   overflow: hidden;
   
@@ -144,8 +144,22 @@ ul li {
   margin-top: 18px;
 }
 
+/* TESTIMONIAL STYLE */
+
 .testimonial {
-  background-color: lightseagreen;
+  background-color: #E7E5EB;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+  padding: 100px;
+  
+}
+
+.testimonial p {
+  text-align: right;
+  margin-top: 12px;
+  font-weight: 800;
+  font-size: 24px;
 }
 
 .cta {
