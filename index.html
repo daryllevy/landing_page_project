@@ -4,6 +4,10 @@
   <head>
     <meta charset="UTF-8" />
     <title>LANDING PAGE</title>
+    <script
+      src="https://kit.fontawesome.com/dc47e29e96.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
 
@@ -16,8 +20,8 @@
           </div>
           <div class="nav-links">
             <ul>
-              <li>Catalogue</li>
-              <li>Nous contacter</li>
+              <li><a href="#catalogue">Catalogue</a></li>
+              <li><a href="#footer">Nous contacter</a></li>
             </ul>
           </div>
         </div>
@@ -29,7 +33,7 @@
               technique. Que vous soyez gamer, créateur de contenu ou
               professionnel, nous avons la solution adaptée.
             </p>
-            <div class="btn">Voir notre catalogue</div>
+            <a href="#catalogue"><div class="btn">Voir notre catalogue</div></a>
           </div>
           <div class="body-img">
             <img
@@ -40,7 +44,7 @@
         </div>
       </div>
 
-      <div class="section-info">
+      <div class="section-info" id="catalogue">
         <p class="title">Nos gammes de PC</p>
         <div class="cards">
           <div class="card">
@@ -98,13 +102,36 @@
         <div class="cta-card">
           <div class="description">
             <p class="title">Prêt à upgrader votre setup ?</p>
-            <p class="text">Contactez-nous pour un devis gratuit et personnalisé</p>
+            <p class="text">
+              Contactez-nous pour un devis gratuit et personnalisé
+            </p>
           </div>
-          <div class="btn">Nous contacter</div>
+          <a href="#footer"><div class="btn">Nous contacter</div></a>
         </div>
       </div>
 
-      <div class="footer">Copyright &copy; Global Store 2026</div>
+      <div class="footer" id="footer">
+        <div class="liens">
+          <div class="facebook">
+            <a
+              href="https://web.facebook.com/profile.php?id=100083698290378"
+              rel="noreferrer"
+              target="_blank "
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <p>facebook</p>
+          </div>
+          <div class="lien-flex">
+            <i class="fa-solid fa-mobile"></i>
+            <p>+237 6 95 18 83 00</p>
+          </div>
+          <div class="lien-flex">
+            <i class="fa-solid fa-envelope"></i>
+            <p>gaeldjona159@gmail.com</p>
+          </div>
+        </div>
+        <div class="copy">Copyright &copy; Global Store 2026</div>
+      </div>
     </div>
   </body>
 </html>
